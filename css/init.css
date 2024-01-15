@@ -1,0 +1,30 @@
+
+*{
+  font-family: 'Noto Sans KR', sans-serif;
+}
+
+body, div, ul, li, ol {
+  padding: 0;
+  margin: 0;
+  position: relative;
+  box-sizing: border-box;
+}
+body{
+  width: auto;
+  margin: 0 auto;
+}
+a{
+  text-decoration: none;
+  color: black;
+}
+a:hover{
+   color: steelblue;
+   font-weight: 600px;
+}
+
+
+
+ul, ol {
+  list-style-type: none;
+}
+

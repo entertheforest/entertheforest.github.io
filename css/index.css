@@ -1,0 +1,251 @@
+
+*{
+  font-family: 'Noto Sans KR', sans-serif;
+}
+
+body, div, ul, li, ol {
+  padding: 0;
+  margin: 0;
+  position: relative;
+  box-sizing: border-box;
+}
+body{
+  width: auto;
+  margin: 0 auto;
+}
+a{
+  text-decoration: none;
+  color: black;
+}
+a:hover{
+   color: steelblue;
+   font-weight: 600px;
+}
+
+
+
+ul, ol {
+  list-style-type: none;
+}
+
+
+.container_wrap{
+  width: 100%;
+}
+
+.menu_wrap {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 30px;
+  z-index: 1000;
+  text-align: center;
+  padding: 30px;
+  background-color: white;
+}
+
+.menu_wrap .menu {
+  display: flex;
+  width: 100%;
+  height: 100%;
+  display: inline-flex;
+  position: relative;
+  justify-content: flex-end;
+}
+
+.menu_wrap .port{
+  display: inline-flex;
+}
+
+.menu_wrap .menu li {
+  display: inline-flex;
+  margin: 0px 20px;
+  text-align: center;
+  font-weight: 600;
+}
+
+.port {
+  display: inline-block;
+  font-weight: 600;
+  margin-right: 500px;
+  font-size: 20px;
+}
+.port2{
+  display: inline-block;
+}
+
+.main_img {
+  max-width: 100%;
+  height: 300px;
+  overflow: hidden;
+
+}
+
+.image-container {
+  position: relative;
+  display: inline-block; 
+  
+}
+
+.image-container img {
+  max-width: 100%;
+  height: auto;
+  display: block; /* 이미지 간격 제거를 위해 */
+  object-fit: cover; /* 이미지가 가득 차도록 조절 */
+
+}
+
+.image-overlay {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background: rgba(0, 0, 0, 0.5); /* 투명 회색 배경, 마지막 값은 투명도(0~1)를 나타냄 */
+  z-index: 1;
+}
+.text-overlay {
+  position: absolute;
+  top: 50%; /* 수직 가운데 정렬 */
+  left: 50%; /* 수평 가운데 정렬 */
+  transform: translate(-50%, -50%); /* 가운데 정렬을 위한 변환 */
+  z-index: 2; /* 이미지 위에 텍스트가 나타나도록 설정 */
+  text-align: center;
+  color: aliceblue;
+}
+
+.about_wrap {
+  display: flex;
+  justify-content: center;
+  margin: 0 0 50px 0;
+}
+
+.about_title {
+  font-family: 'Lora', 'Noto Sans KR', sans-serif;
+  font-size: 150px;
+  color: rgb(233, 233, 233);
+  padding-top: 80px;
+  text-align: center;
+  font-weight: 500; 
+  margin: 50px 0 30px 0;
+}
+.name_title{
+  font-size: 30px;
+  margin: 0;
+}
+
+.photo_wrap {
+  margin: 0; 
+  text-align: center;  
+  width: 500px;
+  position: relative;
+}
+
+.about_text_wrap {
+  width: 500px;
+  margin: 0px 80px; 
+  justify-content: center;
+  position: relative;
+
+}
+
+.contect{
+  font-weight: 600;
+  margin: 0 0 10px 0;
+}
+
+.Edu_Wrap{
+  display: flex;
+  justify-content: center;
+}
+
+.goodee {
+  margin: 50px ;
+  width: 500px;
+}
+.sch{
+  margin: 50px;
+  width: 400px;
+}
+
+.skill_wrap{
+  display: flex;
+  justify-content: space-between;
+  margin: 20px 100px;
+
+}
+
+.skills_title{
+  font-size: 30px;
+}
+
+.skills_title{
+  font-size: 30px;
+  font-weight: 500;
+  margin: 5px;
+  color: rgb(51, 51, 51);
+  border-bottom: 1px solid rgb(188, 186, 186);
+}
+
+.skills_img{
+  width: 200px;
+  display: inline-block;
+  margin: 5px;
+}
+
+
+.project_wrap{
+  align-items: center; 
+  flex-direction: column;
+  width: 80%;
+  margin: 0 auto
+}
+
+.pro_title{
+  text-align: center;
+}
+.pro_title h2{
+  margin: 0;
+}
+
+.pro_info{
+  text-align: center;
+  
+}
+
+.pro_concent{
+  text-align: left;
+  margin: 0 80px 50px 80px;
+
+}
+
+.pro_border{
+  border-bottom: 1px solid rgb(188, 186, 186);
+  padding: 10px;
+}
+
+.footer_wrap{
+  display: flex;
+  justify-content: center;
+  margin: 100px;
+}
+
+
+.footer_text{
+  text-align: center;
+}
+
+.b-title{
+  color: rgb(109, 148, 211);
+  font-weight: 600;
+}
+
+.s-title{
+  color: rgb(143, 46, 199);
+
+}
+
+.s-margin{
+  margin-bottom: 10px;
+}
